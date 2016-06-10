@@ -1,31 +1,35 @@
 {
-    "name": "@musicglue/js-money",
-    "description": "JavaScript implementation of the Money value object.",
-    "version": "0.5.1",
-    "main": "./lib",
-    "author": {
-        "name": "David Kalosi",
-        "email": "david.kalosi@gmail.com"
-    },
-    "keywords": ["money", "javascript", "currency"],
-    "licenses": {
-        "type": "MIT"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/davidkalosi/js-money.git"
-    },
-    "bugs": {
-        "url": "https://github.com/davidkalosi/js-money/issues"
-    },
-    "dependencies": {
-        "lodash": "4.x.x"
-    },
-    "devDependencies": {
-        "mocha": "1.x.x",
-        "chai": "1.x.x"
-    },
-    "scripts": {
-        "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
-    }
+  "name": "@musicglue/js-money",
+  "description": "JavaScript implementation of the Money value object.",
+  "version": "0.6.0",
+  "main": "./lib",
+  "author": {
+    "name": "David Kalosi",
+    "email": "david.kalosi@gmail.com"
+  },
+  "keywords": [
+    "money",
+    "javascript",
+    "currency"
+  ],
+  "licenses": {
+    "type": "MIT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidkalosi/js-money.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidkalosi/js-money/issues"
+  },
+  "dependencies": {
+    "lodash": "4.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
 }
