@@ -1,5 +1,5 @@
 {
-    "name": "js-money",
+    "name": "@musicglue/js-money",
     "description": "JavaScript implementation of the Money value object.",
     "version": "0.5.1",
     "main": "./lib",
